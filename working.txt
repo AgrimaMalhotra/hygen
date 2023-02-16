@@ -1,0 +1,16 @@
+hygen init self
+ -> 2 pre-built helper generators :
+ 1. generator   2. init
+ ---------------------------------
+hygen generator new generatorName
+  templates -> .ejs.t file
+  ejs-> embedded javascript templating -> template engine: 
+  it lets us embed JavaScript code in a template language that is then used to generate HTML.
+
+  hygen generator with-prompt new genPrompt 
+  --prompt.js extra file-> 
+  ----------------------------------
+  hygen generatorName new
+  -> get /app/hello.js
+
+  
